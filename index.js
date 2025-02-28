@@ -8,10 +8,7 @@ window.onload = () => {
 
   let isDark = document.getElementById("theme-toggle");
 
-  // const clickAudio = new Audio("./click.mp3");
-  const clickAudio = new Audio(
-    "https://www.myinstants.com/media/sounds/assault_cannon.mp3"
-  );
+  const clickAudio = new Audio("./click.mp3");
 
   isDark.addEventListener("change", (event) => {
     if (event.target.checked) {
